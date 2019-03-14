@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<td>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Phone Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../Htm/app.js"></script>
+    <link rel="stylesheet" href="../Htm/app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body onload="load()">
+
+        <div id="myform">
+                <table>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" id="name" class="phonebook" onkeyup="annotate()"></td>
+                        </tr>
+                        <tr>
+                            <td>number:</td>
+                            <td><input type="text" id="number" class="phonebook" onkeyup="annotate()"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                    <td><button type="button" class="button1" id="add" onclick="Javascript:addRow()">Add Contact</button></td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                    Name: 
+                            </td>
+                            <td>
+                                <div id="pname"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Number:
+                            </td>
+                            <td>
+                                <div id="pnumber"></div>
+                            </td>
+                        </tr>
+                    
+                    </table> 
+                    </div>
+                    <div id="mydata">
+                        &nbsp;
+                        &nbsp;
+                    <hr>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1>PhoneBook</h1>
+        </div>
+    </div>
+
+    <button onclick="location.href = 'add.htm';" id="myButton" class="button3">Add Contact</button>
+
+<table id="myTableData"  border="0" cellpadding="2">
+    <tr>
+        <td><b>Name</b></td>
+        <td><b>number</b></td>
+    </tr>
+</table>
+&nbsp;
+<!-- </div> -->
+</body>
+</html>
