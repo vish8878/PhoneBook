@@ -21,8 +21,6 @@ function deleteRow(obj) {
  
 function addTable() {
       
-    var myTableDiv = document.getElementById("myDynamicTable");
-      
     var table = document.createElement('TABLE');
     table.border='1';
     
